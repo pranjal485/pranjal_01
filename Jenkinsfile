@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git credentialsId: 'your-credentials-id', url: 'https://github.com/your-repository.git', branch: 'main'
+                git credentialsId: '79bf3068-f4e9-4249-ba4a-91dfc4002404', url: 'https://github.com/pranjal485/pranjal_01.git', branch: 'main'
             }
         }
         stage('Build') {
